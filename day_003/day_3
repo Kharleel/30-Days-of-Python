@@ -1,1 +1,75 @@
+# Declare your age as an integer variable
+age = 30
+
+# Declare your height as a float variable
+height = 1.75
+
+# Declare a variable that stores a complex number
+complex_number = 3 + 4j
+
+# Calculate the area of a triangle
+base = 20
+triangle_height = 10
+triangle_area = 0.5 * base * triangle_height
+
+# Print the results
+print("Age:", age)
+print("Height:", height)
+print("Complex number:", complex_number)
+print("Triangle area:", triangle_area)
+
+
+# Prompt user to enter side a
+side_a = float(input("Enter side a: "))
+
+# Prompt user to enter side b
+side_b = float(input("Enter side b: "))
+
+# Prompt user to enter side c
+side_c = float(input("Enter side c: "))
+
+# Calculate the perimeter of the triangle
+perimeter = side_a + side_b + side_c
+
+# Print the perimeter of the triangle
+print("The perimeter of the triangle is", perimeter)
+
+
+# Prompt user to enter length
+length = float(input("Enter the length of the rectangle: "))
+
+# Prompt user to enter width
+width = float(input("Enter the width of the rectangle: "))
+
+# Calculate the area of the rectangle
+area = length * width
+
+# Calculate the perimeter of the rectangle
+perimeter = 2 * (length + width)
+
+# Print the area and perimeter of the rectangle
+print("The area of the rectangle is", area)
+print("The perimeter of the rectangle is", perimeter)
+
+
+# Prompt user to enter radius
+radius = float(input("Enter the radius of the circle: "))
+
+# Calculate the area of the circle
+pi = 3.14
+area = pi * radius * radius
+
+# Calculate the circumference of the circle
+circumference = 2 * pi * radius
+
+# Calculate the slope, x-intercept and y-intercept of y = 2x -2
+m = 2
+b = -2
+
+# Print the results
+print("The area of the circle is", area)
+print("The circumference of the circle is", circumference)
+print("The slope of the line is", m)
+print("The x-intercept of the line is", -b/m)
+print("The y-intercept of the line is", b)
 
